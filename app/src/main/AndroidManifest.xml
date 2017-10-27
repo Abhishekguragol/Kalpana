@@ -32,7 +32,11 @@
             android:name=".Profileactivity"
             android:label="@string/title_activity_profileactivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".sendreq"></activity>
+        <activity android:name=".sendreq" />
+        <activity
+            android:name=".CancelreqActivity"
+            android:label="@string/title_activity_cancelreq"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
